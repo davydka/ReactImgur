@@ -1,4 +1,8 @@
 var React = require('react');
+var ReactRouter = require('react-router');
+var HashHistory = require('hash-history');
+var Router = ReactRouter.Router;
+var Route = ReactRouter.Route;
 
 var Hello = React.createClass({
   render: function() {
