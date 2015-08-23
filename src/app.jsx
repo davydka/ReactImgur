@@ -4,6 +4,8 @@ var HashHistory = require('react-router/lib/hashhistory');
 var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 
+var Api = require('./utils/api');
+
 var Routes = require('./routes');
 
 React.render(Routes, document.querySelector('.container'));
